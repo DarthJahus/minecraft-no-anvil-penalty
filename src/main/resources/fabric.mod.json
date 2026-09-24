@@ -4,9 +4,7 @@
   "version": "${version}",
   "name": "No Repair Penalty",
   "description": "Removes the enchantment and repair penalty from anvils",
-  "authors": [
-    "TMShader"
-  ],
+  "authors": ["TMShader"],
   "contact": {
     "homepage": "https://github.com/tmshader/no-anvil-penalty",
     "issues": "https://github.com/tmshader/no-anvil-penalty/issues",
@@ -25,6 +23,7 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "~26.3",
+    "java": ">=25"
   }
 }
