@@ -6,4 +6,5 @@ Install it and it works, it's that simple!
 
 ### Supported and tested versions
 
-- 1.21.4 
+- 1.21.4
+- 26.3
