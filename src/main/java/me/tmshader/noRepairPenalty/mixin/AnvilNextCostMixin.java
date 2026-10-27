@@ -1,4 +1,4 @@
-package me.tmshader.noRepairPenalty.mixin;
+package me.tmshader.norepairpenalty.mixin;
 
 import net.minecraft.world.inventory.AnvilMenu;
 import org.spongepowered.asm.mixin.Mixin;
@@ -10,8 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
  * Forces prior-work penalty growth to 0 so repair/combine cost does not
  * escalate with each anvil use.
  *
- * Yarn 1.21.4: AnvilScreenHandler.getNextCost(I)I
- * Mojang 26.x:  AnvilMenu.calculateIncreasedRepairCost(I)I
+ * Mojang 26.x: AnvilMenu.calculateIncreasedRepairCost(I)I
  */
 @Mixin(AnvilMenu.class)
 public class AnvilNextCostMixin {
